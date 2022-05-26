@@ -16,7 +16,7 @@ for i in range(0, 200):
 
 def regular_sort_fn():
     print("Starting regular sort in main_list\n")
-    sleep(6)
+    sleep(5)
     regular_list = regular_sort(main_list)
     print(regular_list)
     print("\nDone regular thread\n")
@@ -24,7 +24,7 @@ def regular_sort_fn():
 
 def inversal_sort_fn():
     print("Starting inversal sort in main_list\n")
-    sleep(4)
+    sleep(5)
     inversal_list = inversal_sort(main_list)
     print(inversal_list)
     print("\nDone inversal thread\n")
